@@ -609,7 +609,7 @@ const GLOBAL_EXTENSIONS: &[&str] = &[
     "_struct",
     "_symtable",
     "_thread",
-    "_tkinter",
+    //"_tkinter",
     "_tracemalloc",
     "_warnings",
     "_weakref",
@@ -666,7 +666,7 @@ const GLOBAL_EXTENSIONS_PYTHON_3_11: &[&str] = &[
 const GLOBAL_EXTENSIONS_MACOS: &[&str] = &["_scproxy"];
 
 const GLOBAL_EXTENSIONS_POSIX: &[&str] = &[
-    "_crypt",
+    //"_crypt",
     "_ctypes_test",
     "_curses",
     "_curses_panel",

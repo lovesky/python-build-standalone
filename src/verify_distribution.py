@@ -28,7 +28,7 @@ for parts in TCL_PATHS:
     candidate = os.path.join(INSTALL_ROOT, *parts)
 
     if os.path.exists(candidate):
-        os.environ["TCL_LIBRARY"] = candidate
+        # os.environ["TCL_LIBRARY"] = candidate
         break
 
 # Need to set TERMINFO_DIRS so terminfo database can be located.

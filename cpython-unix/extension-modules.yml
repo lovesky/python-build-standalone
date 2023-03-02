@@ -67,6 +67,8 @@ _contextvars:
     - _contextvarsmodule.c
 
 _crypt:
+  disabled-targets:
+    - .*
   sources:
     - _cryptmodule.c
   links-conditional:
@@ -495,7 +497,7 @@ _thread:
 _tkinter:
   # tk not available on iOS.
   disabled-targets:
-    - .*-apple-ios
+    - .*
   sources:
     - _tkinter.c
     - tkappinit.c
